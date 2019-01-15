@@ -3,10 +3,23 @@ body {
 }
 
 h1 {
-  color: black;
+  color: white;
+  font-size: 120px;
   transition: color 0.5s ease-in-out;
+  margin-bottom: 0;
 }
 
+h4 {
+  font-size: 60px;
+  margin: 0;
+  color: white;
+}
+
+h5 {
+  font-size: 20px;
+  color: white;
+  margin: 0;
+}
 .clicked {
   color: #130f40;
 }
@@ -18,6 +31,24 @@ h1 {
 
 .showing {
   display: block;
+}
+
+.main{
+  top: 50%;
+  width: 100%;
+  text-align: center;
+}
+
+.toDoForm-input{
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 30px;
+}
+
+span {
+  font-size: 25px;
+  color: white;
 }
 
 @keyframes fadeIn {
