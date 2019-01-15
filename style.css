@@ -46,6 +46,19 @@ h5 {
   font-size: 30px;
 }
 
+.nameForm-input {
+  background: transparent;
+  border: none;
+  border-bottom: 2px solid white;
+  font-size: 30px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.nameForm-input::placeholder {
+  color: white;
+}
+
 span {
   font-size: 25px;
   color: white;
